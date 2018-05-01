@@ -1,0 +1,49 @@
+{
+    "add-field": [
+        {
+            "name": "title",
+            "type": "text_ja",
+            "indexed": "true",
+            "stored": "true",
+            "required": "true"
+        },
+        {
+            "name": "url",
+            "type": "string",
+            "indexed": "false",
+            "stored": "true",
+            "required": "true"
+        },
+        {
+            "name": "image_url",
+            "type": "string",
+            "indexed": "false",
+            "stored": "true",
+            "required": "false"
+        },
+        {
+            "name": "actress",
+            "type": "string",
+            "indexed": "true",
+            "stored": "true",
+            "required": "false",
+            "multiValued": "true"
+        },
+        {
+            "name": "genre",
+            "type": "string",
+            "indexed": "true",
+            "stored": "true",
+            "required": "false",
+            "multiValued": "true"
+        },
+        {
+            "name": "maker",
+            "type": "string",
+            "indexed": "true",
+            "stored": "true",
+            "required": "false",
+            "multiValued": "true"
+        }
+    ]
+}
